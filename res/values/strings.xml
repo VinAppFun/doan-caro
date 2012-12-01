@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">GamCaro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Game Caro</string>
+    
+    <string name="welcome">Game Caro</string>
+    <string name="batdau">Bắt đầu</string>
+    <string name="tieptuc">Tiếp tục</string>
+    <string name="caidat">Cài đặt</string>
+    <string name="thoat">Thoát</string>
+    <string name="trogiup">Trợ giúp</string>
+    <string name="undo">Phục hồi</string>
+    <string name="new_game">Ván mới</string>
+    
+    
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="ok">Ok</string>
+    <string name="black">X</string>
+    <string name="white">O</string>
+    <string name="blackWin">Quân X thắng</string>
+    <string name="whiteWin">Quân O thắng</string>
+    <string name="draw">Hòa</string>
+    <string name="stringDialogSelectPiece">O hay X đánh trước.?</string>
+    <string name="stringDialogFirstPlay">Tôi có thể đánh trước không.?</string>
+    <string name="titleSoundSetting">Âm thanh</string>
+    <string name="effectSound">Hiệu ứng âm thanh</string>
+    <string name="musicSound">Nhạc nền</string>
+    <string name="titleLangusge">Ngôn ngữ</string>
+    <string name="English">English</string>
+    <string name="vietnames">Tiếng việt</string>
+ 
+
+</resources>

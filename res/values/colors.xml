@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titlebackground">#1c3558</color>
+    <color name="background">#000000</color>
+    <color name="border">#9A620E</color>
+    <color name="BoardBackground">#ffBDBFC1</color>
+    <color name="BoardLine">#9A620E</color>
+    <color name="BoardSelect">#ff0000ff</color>
+    <color name="BoardBorder">#ff0000ff</color>
+    <color name="ColorTextList">#ff0000</color>
+    <color name="textColor">#ffffff</color>
+</resources>

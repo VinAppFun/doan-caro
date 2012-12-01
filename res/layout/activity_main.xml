@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundmenu"
+    android:orientation="vertical"
+     android:gravity="center_horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        style="@style/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome" />
+
+    <Button
+        android:id="@+id/btnbatdau"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/batdau" />
+    <Button
+        android:id="@+id/btntieptuc"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/tieptuc" />
+
+
+    <Button
+        android:id="@+id/btncaidat"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/caidat" />
+    <Button
+	    android:id="@+id/btntrogiup"
+	     android:layout_width="126dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/trogiup" />
+ 
+	<Button
+	    android:id="@+id/btnthoat"
+	     android:layout_width="126dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/thoat" />
+
+	
+</LinearLayout>
