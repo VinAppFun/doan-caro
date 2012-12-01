@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundmenu"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/titlebackground"
+        android:text="@string/titleSoundSetting"
+        android:textSize="20dp" />
+   <CheckBox
+        android:id="@+id/checkBoxEffectSound"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/effectSound" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="@color/border" >
+    </LinearLayout>
+    <!-- <CheckBox
+        android:id="@+id/checkBoxMusic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/musicSound" /> -->
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/titlebackground"
+        android:text="@string/titleLangusge"
+		android:textSize="20dp" />
+		<RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton
+          android:id="@+id/radioButtonEnglish"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/English" />
+		<LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:orientation="vertical"
+	        android:background="@color/border" >
+	    </LinearLayout>
+      <RadioButton
+          android:id="@+id/radioButtonVietnames"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/vietnames" />
+    </RadioGroup>
+</LinearLayout>
